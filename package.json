@@ -1,0 +1,20 @@
+{
+  "name": "servidordejs",
+  "version": "1.0.0",
+  "description": "Servidor de NodeJS con Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node SERVER/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Romo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "colors": "^1.4.0",
+    "express": "^4.17.3",
+    "hogan": "^1.0.2",
+    "mongoose": "^6.2.4",
+    "nodemailer": "^6.7.3"
+  }
+}
